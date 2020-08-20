@@ -14,10 +14,32 @@ print(fruits[1])
 #fruits[0] = 'Pears'
 
 # Delelte tuple
-del fruits2
+#del fruits2
 
 print(len(fruits))
 
 print(fruits, type(fruits2))
 
 # A Set is a collection which is unordered and unindexed. No duplicate members.
+
+
+# Create set
+fruits_set = {'Apples', 'Oranges', 'Mango'}
+
+# Check if in set
+print('Apples' in fruits_set)
+
+# add to set
+fruits_set.add('Grape')
+
+print(fruits_set)
+
+# Remove from set
+fruits_set.remove('Grape')
+
+# Clear set
+fruits_set.clear()
+print(fruits_set)
+
+# Delete
+del fruits_set
